@@ -1,0 +1,54 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 80px 0;
+
+      
+    }
+  
+    h1{
+      margin-top: 10px;
+    }
+    .Login form {
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 370px;
+      border-color: #ece6e6;
+      border-radius: 10px;
+      background-color: #f1f1f1;
+    }
+
+    .email{
+      width: 80%;
+    }
+
+    .email label{
+        font-weight: 500;
+        margin-top: 15px;
+    }
+
+    .cbox{
+       
+        margin-top: 5px;
+        width: 80%;
+    }
+
+    button{
+        width: 60% !important;
+        background-color: rgb(152, 152, 201);
+        border-color: #dbd2d2;
+       
+    }
+   
+    .acc{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+    
+   
+  }
